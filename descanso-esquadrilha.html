@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>Descanso — Esquadrilha (protótipo)</title>
+<title>Descanso — Esquadrilha</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Anton&family=Barlow+Condensed:wght@500;600;700&family=Press+Start+2P&display=swap" rel="stylesheet">
 <style>
@@ -183,7 +183,7 @@ canvas{display:block;width:100%;height:100%;touch-action:none;-webkit-user-selec
 </head>
 <body>
 <div class="wrap">
-  <header class="cab"><span class="kick">Descanso · Jogo 1 · protótipo</span><h1>Esquadrilha</h1></header>
+  <header class="cab"><h1>Esquadrilha</h1></header>
 
   <div class="pomo">
     <div class="pomo-t"><span>Pausa do Pomodoro</span><b id="pt">5:00</b></div>
@@ -1288,7 +1288,7 @@ function draw(){
 }
 
 /* ============================================================
-   RANKING (neste protótipo é local; no blog será compartilhado)
+   RANKING (compartilhado entre os jogadores; local se o servidor falhar)
    ============================================================ */
 const RKEY='descanso-esquadrilha-ranking',NKEY='descanso-esquadrilha-apelido';
 let memRank=[],memNick='';
